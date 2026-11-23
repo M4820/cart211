@@ -5,6 +5,7 @@ background-color: rgb(227, 227, 228);
 align-items: center;
 border-bottom: solid;
 border-color: rgb(118, 119, 122);
+z-index: 1000;
 
 }
 
@@ -45,6 +46,7 @@ footer {
   height: 50px;
   border-top: solid;
 border-color: rgb(118, 119, 122);
+z-index: 1000;
 }
 
 /* mobile */

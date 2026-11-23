@@ -7,7 +7,25 @@
 
     <link rel="Stylesheet" href="nav.css">
     <style>
-  
+
+/* https://aleclownes.com/2017/02/01/crt-display.html */
+.crt::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: -1;
+  background-size: 100% 3px, 3px 100%;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+
+
 #wrapper {
     margin: 10px;
     margin-top: 35px;
@@ -21,7 +39,8 @@ body {
     background-color: rgb(47, 3, 4);
 }
     </style>
-
+    
+  <div class="crt"></div>
 </head>
 
 
@@ -48,7 +67,7 @@ body {
         </button></a>
 
         <a href="page5.html"><button class="navbtn navbtn5">
-        Page5
+        2003
         </button></a>
         
         <a href="page6.html"><button class="navbtn navbtn6">
@@ -64,7 +83,7 @@ body {
         </button></a>
 
         <a href="page9.html"><button class="navbtn navbtn7">
-        Page9
+        ???
         </button></a>
 
         </div>
